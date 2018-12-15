@@ -1,0 +1,19 @@
+{
+    "name": "afterbug/tuieditor-module",
+    "description": "Markdown WYSIWYG Editor using Tui-Editor",
+    "type": "afterbug-module",
+    "authors": [
+        {
+            "name": "AfterBug",
+            "email": "support@afterbug.net"
+        }
+    ],
+    "require": {
+        "graham-campbell/markdown": "^10.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "AfterBug\\TuiEditor\\": ""
+        }
+    }
+}
